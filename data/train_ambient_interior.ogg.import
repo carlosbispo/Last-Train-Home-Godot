@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/train_ambient_interior.ogg-4e90a236b74d527837018591b4ce77e3.oggstr"
+
+[deps]
+
+source_file="res://data/train_ambient_interior.ogg"
+dest_files=[ "res://.import/train_ambient_interior.ogg-4e90a236b74d527837018591b4ce77e3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

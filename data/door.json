@@ -1,0 +1,178 @@
+{ "frames": [
+   {
+    "filename": "door 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 100
+   },
+   {
+    "filename": "door 1.aseprite",
+    "frame": { "x": 41, "y": 0, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 100
+   },
+   {
+    "filename": "door 2.aseprite",
+    "frame": { "x": 82, "y": 0, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 3.aseprite",
+    "frame": { "x": 123, "y": 0, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 4.aseprite",
+    "frame": { "x": 164, "y": 0, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 5.aseprite",
+    "frame": { "x": 205, "y": 0, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 6.aseprite",
+    "frame": { "x": 0, "y": 49, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 7.aseprite",
+    "frame": { "x": 41, "y": 49, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 8.aseprite",
+    "frame": { "x": 82, "y": 49, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 9.aseprite",
+    "frame": { "x": 123, "y": 49, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 100
+   },
+   {
+    "filename": "door 10.aseprite",
+    "frame": { "x": 164, "y": 49, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 11.aseprite",
+    "frame": { "x": 205, "y": 49, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 12.aseprite",
+    "frame": { "x": 0, "y": 98, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 13.aseprite",
+    "frame": { "x": 41, "y": 98, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 14.aseprite",
+    "frame": { "x": 82, "y": 98, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 15.aseprite",
+    "frame": { "x": 123, "y": 98, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 16.aseprite",
+    "frame": { "x": 164, "y": 98, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 120
+   },
+   {
+    "filename": "door 17.aseprite",
+    "frame": { "x": 205, "y": 98, "w": 41, "h": 49 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 49 },
+    "sourceSize": { "w": 41, "h": 49 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.11-x64",
+  "image": "door.png",
+  "format": "RGBA8888",
+  "size": { "w": 256, "h": 256 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "idle", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "open", "from": 2, "to": 8, "direction": "forward" },
+   { "name": "close", "from": 10, "to": 16, "direction": "forward" }
+  ]
+ }
+}

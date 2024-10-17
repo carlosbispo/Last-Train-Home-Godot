@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/epilog.ogg-1f845f286795efe3cb5d553bd6b246e4.oggstr"
+
+[deps]
+
+source_file="res://data/epilog.ogg"
+dest_files=[ "res://.import/epilog.ogg-1f845f286795efe3cb5d553bd6b246e4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

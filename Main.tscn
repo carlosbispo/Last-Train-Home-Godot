@@ -1,0 +1,142 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://Lightning.gdshader" type="Shader" id=2]
+[ext_resource path="res://Prompt.tscn" type="PackedScene" id=3]
+[ext_resource path="res://SpeechBox.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Background.gd" type="Script" id=5]
+[ext_resource path="res://Curtain.gd" type="Script" id=6]
+[ext_resource path="res://joystick/virtual_joystick.tscn" type="PackedScene" id=7]
+[ext_resource path="res://x.png" type="Texture" id=8]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 2 )
+shader_param/position0 = null
+shader_param/position1 = null
+shader_param/position2 = null
+shader_param/position3 = null
+shader_param/position4 = null
+shader_param/position5 = null
+shader_param/position6 = null
+shader_param/position7 = null
+shader_param/position8 = null
+shader_param/position9 = null
+shader_param/color0 = null
+shader_param/color1 = null
+shader_param/color2 = null
+shader_param/color3 = null
+shader_param/color4 = null
+shader_param/color5 = null
+shader_param/color6 = null
+shader_param/color7 = null
+shader_param/color8 = null
+shader_param/color9 = null
+shader_param/radii0 = null
+shader_param/radii1 = null
+shader_param/radii2 = null
+shader_param/radii3 = null
+shader_param/radii4 = null
+shader_param/radii5 = null
+shader_param/radii6 = null
+shader_param/radii7 = null
+shader_param/radii8 = null
+shader_param/radii9 = null
+shader_param/camera_pos = null
+shader_param/ambient = null
+shader_param/screen_size = null
+
+[node name="Main" type="ViewportContainer"]
+material = SubResource( 1 )
+script = ExtResource( 1 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -3
+script = ExtResource( 5 )
+
+[node name="Canvas" type="Viewport" parent="."]
+size = Vector2( 320, 180 )
+transparent_bg = true
+handle_input_locally = false
+render_target_update_mode = 3
+
+[node name="Prompt" parent="." instance=ExtResource( 3 )]
+z_index = 0
+
+[node name="Curtain" type="Node2D" parent="."]
+script = ExtResource( 6 )
+
+[node name="Items" type="Node2D" parent="."]
+position = Vector2( 5, 5 )
+
+[node name="SpeechBox" parent="." instance=ExtResource( 4 )]
+visible = false
+z_index = 0
+
+[node name="ItemNotification" parent="." instance=ExtResource( 4 )]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 160, 19 )
+is_sticky = true
+
+[node name="EndText" type="Node" parent="."]
+
+[node name="End" parent="EndText" instance=ExtResource( 4 )]
+modulate = Color( 0, 0, 0, 0 )
+position = Vector2( 160, 123 )
+speech_content = "The End."
+use_big_font = true
+draw_text_box = false
+is_sticky = true
+
+[node name="Thanks" parent="EndText" instance=ExtResource( 4 )]
+modulate = Color( 0, 0, 0, 0 )
+position = Vector2( 160, 136 )
+speech_content = "Thanks for playing."
+use_big_font = true
+draw_text_box = false
+is_sticky = true
+
+[node name="PressX" parent="EndText" instance=ExtResource( 4 )]
+modulate = Color( 0, 0, 0, 0 )
+position = Vector2( 160, 149 )
+speech_content = "press [X] to play again."
+use_big_font = true
+draw_text_box = false
+is_sticky = true
+
+[node name="MusicList" type="Node" parent="."]
+
+[node name="MusicListFadeOutTween" type="Tween" parent="."]
+
+[node name="AmbientVolumeTween" type="Tween" parent="."]
+
+[node name="EndingTextFadeIn" type="Tween" parent="."]
+
+[node name="Virtual Joystick" type="Control" parent="."]
+
+[node name="Virtual joystick Left" parent="Virtual Joystick" instance=ExtResource( 7 )]
+modulate = Color( 0.388235, 0.584314, 0.905882, 1 )
+margin_left = 5.0
+margin_top = 135.0
+margin_right = 205.0
+margin_bottom = 335.0
+rect_scale = Vector2( 0.2, 0.2 )
+__meta__ = {
+"_edit_group_": true
+}
+deadzone_size = 5.0
+clampzone_size = 10.0
+visibility_mode = 1
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="Virtual Joystick"]
+position = Vector2( 273, 135 )
+scale = Vector2( 0.5, 0.5 )
+normal = ExtResource( 8 )
+visibility_mode = 1
+
+[connection signal="tween_completed" from="Tween" to="." method="_on_Tween_tween_completed"]
+[connection signal="tween_completed" from="MusicListFadeOutTween" to="." method="_on_MusicListFadeOutTween_tween_completed"]
+[connection signal="tween_step" from="AmbientVolumeTween" to="." method="_on_AmbientVolumeTween_tween_step"]
+[connection signal="tween_step" from="EndingTextFadeIn" to="." method="_on_EndingTextFadeIn_tween_step"]
+[connection signal="pressed" from="Virtual Joystick/TouchScreenButton" to="." method="_on_TouchScreenButton_pressed"]

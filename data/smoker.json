@@ -1,0 +1,22 @@
+{ "frames": [
+   {
+    "filename": "smoker.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 40, "h": 50 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 50 },
+    "sourceSize": { "w": 40, "h": 50 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.11-x64",
+  "image": "smoker.png",
+  "format": "RGBA8888",
+  "size": { "w": 64, "h": 64 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

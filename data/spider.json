@@ -1,0 +1,77 @@
+{ "frames": [
+   {
+    "filename": "spider 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 112, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 112, "h": 60 },
+    "sourceSize": { "w": 112, "h": 60 },
+    "duration": 100
+   },
+   {
+    "filename": "spider 1.aseprite",
+    "frame": { "x": 112, "y": 0, "w": 112, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 112, "h": 60 },
+    "sourceSize": { "w": 112, "h": 60 },
+    "duration": 130
+   },
+   {
+    "filename": "spider 2.aseprite",
+    "frame": { "x": 224, "y": 0, "w": 112, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 112, "h": 60 },
+    "sourceSize": { "w": 112, "h": 60 },
+    "duration": 130
+   },
+   {
+    "filename": "spider 3.aseprite",
+    "frame": { "x": 336, "y": 0, "w": 112, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 112, "h": 60 },
+    "sourceSize": { "w": 112, "h": 60 },
+    "duration": 130
+   },
+   {
+    "filename": "spider 4.aseprite",
+    "frame": { "x": 0, "y": 60, "w": 112, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 112, "h": 60 },
+    "sourceSize": { "w": 112, "h": 60 },
+    "duration": 130
+   },
+   {
+    "filename": "spider 5.aseprite",
+    "frame": { "x": 112, "y": 60, "w": 112, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 112, "h": 60 },
+    "sourceSize": { "w": 112, "h": 60 },
+    "duration": 100
+   },
+   {
+    "filename": "spider 6.aseprite",
+    "frame": { "x": 224, "y": 60, "w": 112, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 112, "h": 60 },
+    "sourceSize": { "w": 112, "h": 60 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.11-x64",
+  "image": "spider.png",
+  "format": "RGBA8888",
+  "size": { "w": 512, "h": 128 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "walk", "from": 1, "to": 4, "direction": "forward" }
+  ]
+ }
+}
